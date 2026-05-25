@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://ayush-chat-backend.onrender.com');
 
 const form = document.getElementById('send-container')
 const messageinput = document.getElementById('messageimp')
