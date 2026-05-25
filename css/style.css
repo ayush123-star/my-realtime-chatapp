@@ -1,0 +1,105 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 50px;
+    border-radius: 1480px 1480px 1480px 1480px;
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    background-image: url(https://img.freepik.com/premium-photo/visualizing-communication-exploring-listening-speaking-concepts-high-quality-imagery_937679-10447.jpg);
+}
+
+
+h1{
+    margin-top: 12px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 1.3em;
+    text-shadow: 2px 2px 1px rgb(209, 255, 100);
+    font-style: italic;
+    color: black;
+    
+}
+
+.container{
+    max-width: 950px;
+    margin: auto;
+    border: 6px solid rgb(0, 0, 0);
+    height: 60vh;
+    padding: 30px;
+    overflow: scroll;
+    margin-bottom: 20px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.message{
+    background-color: rgb(39, 241, 255);
+    color: rgb(0, 0, 0);
+    border: 4px solid black;
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px 20px;
+    margin-left: 10px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+ #send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 1050px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageimp{
+    width: 80%;
+    border: 4px solid black;
+    border-radius: 6px;
+    height: 30px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.btn{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 6px;
+    height: 30px;
+    width: 13%;
+    margin: 4px;
+} 
+
+
+
+
+
+
