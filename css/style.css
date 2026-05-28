@@ -1,105 +1,165 @@
-.logo{
-    display: block;
-    margin: auto;
-    width: 80px;
-    height: 50px;
-    border-radius: 1480px 1480px 1480px 1480px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-
-body{
+body {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0px;
-    background-image: url(https://img.freepik.com/premium-photo/visualizing-communication-exploring-listening-speaking-concepts-high-quality-imagery_937679-10447.jpg);
+    background-image: url(https://i.pinimg.com/originals/41/1d/12/411d125c8e026abddcee7a6c1dc09f7c.gif );
 }
 
-
-h1{
+h1 {
     margin-top: 12px;
-    font-size: 35px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-size: 30px;
     font-weight: bolder;
     line-height: 1.3em;
-    text-shadow: 2px 2px 1px rgb(209, 255, 100);
-    font-style: italic;
-    color: black;
-    
+    text-shadow: 2px 4px 5px rgb(255, 122, 226);
+    font-style: oblique;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
 }
 
-.container{
+.search-container {
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+#search-input {
+    width: 85%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    outline: none;
+    border: 7px solid black;
+    background-color: rgb(255, 253, 163);
+    border-top: 7px solid rgb(252, 139, 139);
+    border-bottom: 7px solid rgb(218, 255, 35);
+    border-left: 7px solid rgb(27, 122, 255);
+    border-right: 7px solid rgb(255, 108, 253);
+}
+
+#search-input:hover {
+    border: 7px solid black;
+    background-color: rgb(255, 253, 163);
+    border-top: 7px solid rgb(114, 32, 32);
+    border-bottom: 7px solid rgb(7, 8, 3);
+    border-left: 7px solid rgb(4, 57, 132);
+    border-right: 7px solid rgb(112, 30, 110);
+}
+
+.container {
     max-width: 950px;
     margin: auto;
     border: 6px solid rgb(0, 0, 0);
     height: 60vh;
     padding: 30px;
-    overflow: scroll;
+    overflow-y: auto;
     margin-bottom: 20px;
-    overflow-y: visible;
-    overflow-x: hidden;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/41/1d/12/411d125c8e026abddcee7a6c1dc09f7c.gif );
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.message{
-    background-color: rgb(39, 241, 255);
+
+.message {
+    background-color: rgb(59, 255, 226);
     color: rgb(0, 0, 0);
     border: 4px solid black;
-    width: 25%;
+    max-width: 55%;
+    width: fit-content;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 20px 20px;
-    margin-left: 10px;
+    border-radius: 20px;
     overflow-wrap: break-word;
     word-break: break-all;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 25px;
     font-style: italic;
 }
 
-.left{
-    float: left;
-    clear: both;
+.left {
+    align-self: flex-start;
+    background-color: rgb(59, 255, 226);
 }
 
-.right{
-    float: right;
-    clear: both;
+.right {
+    align-self: flex-end;
+    background-color: #fffca3;
 }
 
- #send-container{
+#send-container {
     text-align: center;
-    display: block;
+    display: flex;
     margin: auto;
     max-width: 1050px;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#messageimp{
+#messageimp {
     width: 80%;
-    border: 4px solid black;
-    border-radius: 6px;
+    border-radius: 60px;
     height: 30px;
     font-size: 14px;
     font-style: italic;
     font-weight: bolder;
+    border: 7px solid black;
+    background-color: rgb(255, 253, 145);
+    border-top: 7px solid rgb(252, 139, 139);
+    border-bottom: 7px solid rgb(218, 255, 35);
+    border-left: 7px solid rgb(27, 122, 255);
+    border-right: 7px solid rgb(255, 108, 253);
 }
 
-.btn{
+#messageimp:hover{
+    border: 7px solid black;
+    background-color: rgb(255, 253, 163);
+    border-top: 7px solid rgb(114, 32, 32);
+    border-bottom: 7px solid rgb(7, 8, 3);
+    border-left: 7px solid rgb(4, 57, 132);
+    border-right: 7px solid rgb(112, 30, 110);
+}
+
+.btn {
     cursor: pointer;
-    border: 3px solid black;
-    border-radius: 6px;
-    height: 30px;
+    border-radius: 800px;
+    height: 45px;
     width: 13%;
     margin: 4px;
-} 
+    font-weight: bold;
+    border: 7px solid black;
+    background-color: rgb(255, 253, 163);
+    border-top: 7px solid rgb(252, 139, 139);
+    border-bottom: 7px solid rgb(218, 255, 35);
+    border-left: 7px solid rgb(27, 122, 255);
+    border-right: 7px solid rgb(255, 108, 253);
+}
 
+.btn:hover{
+    border: 7px solid black;
+    background-color: rgb(255, 253, 163);
+    border-top: 7px solid rgb(114, 32, 32);
+    border-bottom: 7px solid rgb(7, 8, 3);
+    border-left: 7px solid rgb(4, 57, 132);
+    border-right: 7px solid rgb(112, 30, 110);
+}
 
-
-
-
-
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
